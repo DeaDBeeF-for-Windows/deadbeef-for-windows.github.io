@@ -1,0 +1,159 @@
+div{
+	display: flex;
+	flex-wrap: wrap;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	background-image: url("deadbeef-background.png");
+	background-color: #303030;
+	background-repeat: no-repeat;
+    background-position: 70% 12%;
+}
+
+h1 {
+	text-align: left;
+	margin-left: 3%;
+}
+
+h2 {
+	text-align: left;
+	color: #eeeeee;
+	margin-left: 5%;
+	margin-bottom: 0px;
+}
+
+p {
+	color: #dddddd;
+	margin-left: 6%;
+	margin-right: 3%;
+}
+
+p.nomargin {
+	color: #dddddd;
+	margin-left: 0%;
+}
+
+a.info {
+	color: #dddddd;
+}
+
+a:link {
+	color: #44aaff;
+}
+
+a:visited {
+	color: #9c30ff;
+}
+
+ul {
+    margin-left: 9%;
+}
+
+#top{
+	margin: auto;
+	padding-bottom: 5px;
+	font-size: 48pt;
+}
+
+#logo_box{
+	margin: auto;
+	padding: 10px 0;
+	display: flex;
+	align-items: center;
+	text-align: left; 
+	vertical-align: middle;
+	min-width: 800px;
+	height: 130px;
+	font-size: 48pt;
+}
+
+#navbar{
+	margin: auto;
+	padding: 0px 0;
+	min-width:820px;
+	width: 50%;
+	/* height: auto; breaks on Internet Explorer... */
+	height: 63px;
+	/*height: auto;*/
+	font-size: 16pt;
+	background-color: #202020;
+}
+#navbar_table {
+	font-family: 'Open Sans', sans-serif;
+	border-collapse: collapse;
+	width: 80%;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom: 5%;
+	padding: 10px 0;
+	vertical-align: middle;
+	width:100%;
+	border: 0px;
+}
+#navbar_table td, #navbar_table th {
+	position: relative;
+	text-align:center;
+    border: 0px;
+    padding: 16px;
+}
+
+.link-spanner{
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+  z-index: 1;
+}   
+
+#navbar_table th:nth-child(even){color: #505050; font-size: 16pt; padding: 5px;}
+#navbar_table th:nth-child(odd) {min-width: 50px;}
+#navbar_table th:nth-child(odd):hover {background-color: #505050; min-width: 50px;}
+#main{
+	border-top: 1px solid #353535;
+	opacity: 1;
+	width: 100%;
+
+}
+
+.block{
+	border-top: 1px dashed #404040;
+	display: block;
+	padding: 0px;
+	margin: auto;
+	text-align: left;
+	flex-basis: 66%;
+	min-width:800px;
+	height: auto;
+	
+}
+
+.info {
+	text-align: left;
+	color: #eeeeee;
+	background-color: #505050;
+	border: 2px dashed #808080;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	box-decoration-break: clone;
+}
+
+#footer{
+	border-top: 1px dashed #404040;
+	display: block;
+	padding: 0px;
+	padding-top: 5px;
+	margin: auto;
+	text-align: right;
+	color: #707070;
+	font-size: 8pt;
+	flex-basis: 66%;
+	min-width:800px;
+	height: auto;
+	
+}
