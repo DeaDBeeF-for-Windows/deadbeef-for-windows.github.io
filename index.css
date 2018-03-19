@@ -75,7 +75,7 @@ ul {
 	min-width:820px;
 	width: 50%;
 	/* height: auto; breaks on Internet Explorer... */
-	height: 63px;
+	height: 100%;
 	/*height: auto;*/
 	font-size: 16pt;
 	background-color: #202020;
