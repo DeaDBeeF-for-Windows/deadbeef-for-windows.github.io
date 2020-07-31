@@ -143,6 +143,19 @@ ul {
 	box-decoration-break: clone;
 }
 
+.warning {
+	text-align: left;
+	color: #eeeeee;
+	background-color: #505050;
+	border: 2px dashed #fbff1c;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	box-decoration-break: clone;
+}
+
 #footer{
 	border-top: 1px dashed #404040;
 	display: block;
